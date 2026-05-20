@@ -1,0 +1,19 @@
+{
+    "protocol": "A \u2014 Plateau Verification",
+    "n_seeds": 2,
+    "M": 1500,
+    "etas": [
+        0.1,
+        0.2
+    ],
+    "ar_coeffs": [
+        0.4,
+        0.2,
+        0.1,
+        0.05,
+        0.05
+    ],
+    "lambda_optimal": 0.05,
+    "n_samples": 3000,
+    "note": "Protocol A is designed solely to visualize curve stabilization. With 2 seeds there is insufficient statistical power for algorithm comparison. See Phase 1.1 (Protocol B) for statistical comparison results."
+}

@@ -1,0 +1,478 @@
+{
+  "dataset": "Composite",
+  "key": "c",
+  "models": {
+    "0.05": {
+      "Q-BB_block1": {
+        "global": {
+          "viol_rate_pct": 1.8109,
+          "kupiec_lr": 55.779315,
+          "kupiec_p": 0.0,
+          "christ_p": 0.169033,
+          "mae": 1.56949336,
+          "es": 1.75404078
+        },
+        "pre2022": {
+          "viol_rate_pct": 1.232,
+          "kupiec_lr": 41.218216,
+          "kupiec_p": 0.0,
+          "christ_p": 0.584073,
+          "mae": 1.81832889,
+          "es": 2.53833254
+        },
+        "post2022": {
+          "viol_rate_pct": 2.3669,
+          "kupiec_lr": 18.235446,
+          "kupiec_p": 2e-05,
+          "christ_p": 0.125384,
+          "mae": 1.33047383,
+          "es": 1.3618949
+        }
+      },
+      "VaRGARCH_N": {
+        "global": {
+          "viol_rate_pct": 3.7726,
+          "kupiec_lr": 6.86429,
+          "kupiec_p": 0.008794,
+          "christ_p": 0.49473,
+          "mae": 1.13106982,
+          "es": 1.45388234
+        },
+        "pre2022": {
+          "viol_rate_pct": 3.5934,
+          "kupiec_lr": 4.478681,
+          "kupiec_p": 0.03432,
+          "christ_p": 0.525687,
+          "mae": 1.21638862,
+          "es": 1.7086848
+        },
+        "post2022": {
+          "viol_rate_pct": 3.9448,
+          "kupiec_lr": 2.554698,
+          "kupiec_p": 0.109967,
+          "christ_p": 0.737201,
+          "mae": 1.04911664,
+          "es": 1.2309302
+        }
+      },
+      "VaRGARCH_S": {
+        "global": {
+          "viol_rate_pct": 1.8612,
+          "kupiec_lr": 53.710048,
+          "kupiec_p": 0.0,
+          "christ_p": 0.004482,
+          "mae": 1.36009562,
+          "es": 1.70863218
+        },
+        "pre2022": {
+          "viol_rate_pct": 2.0534,
+          "kupiec_lr": 22.683253,
+          "kupiec_p": 2e-06,
+          "christ_p": 0.064482,
+          "mae": 1.47025638,
+          "es": 1.94600166
+        },
+        "post2022": {
+          "viol_rate_pct": 1.6765,
+          "kupiec_lr": 31.413218,
+          "kupiec_p": 0.0,
+          "christ_p": 0.029681,
+          "mae": 1.25428046,
+          "es": 1.42937397
+        }
+      },
+      "VaReGARCH_N": {
+        "global": {
+          "viol_rate_pct": 3.7223,
+          "kupiec_lr": 7.467207,
+          "kupiec_p": 0.006283,
+          "christ_p": 0.203884,
+          "mae": 1.13056507,
+          "es": 1.46439061
+        },
+        "pre2022": {
+          "viol_rate_pct": 3.5934,
+          "kupiec_lr": 4.478681,
+          "kupiec_p": 0.03432,
+          "christ_p": 0.166522,
+          "mae": 1.21427827,
+          "es": 1.7326235
+        },
+        "post2022": {
+          "viol_rate_pct": 3.8462,
+          "kupiec_lr": 3.077121,
+          "kupiec_p": 0.079401,
+          "christ_p": 0.686116,
+          "mae": 1.05015417,
+          "es": 1.22366879
+        }
+      },
+      "VaReGARCH_S": {
+        "global": {
+          "viol_rate_pct": 1.8109,
+          "kupiec_lr": 55.779315,
+          "kupiec_p": 0.0,
+          "christ_p": 0.169033,
+          "mae": 1.36771695,
+          "es": 1.71872832
+        },
+        "pre2022": {
+          "viol_rate_pct": 1.7454,
+          "kupiec_lr": 28.689988,
+          "kupiec_p": 0.0,
+          "christ_p": 0.436815,
+          "mae": 1.47885157,
+          "es": 2.07836062
+        },
+        "post2022": {
+          "viol_rate_pct": 1.8738,
+          "kupiec_lr": 27.135413,
+          "kupiec_p": 0.0,
+          "christ_p": 0.047886,
+          "mae": 1.26096635,
+          "es": 1.39695205
+        }
+      },
+      "VaRgGARCH_N": {
+        "global": {
+          "viol_rate_pct": 3.5714,
+          "kupiec_lr": 9.445885,
+          "kupiec_p": 0.002116,
+          "christ_p": 0.153085,
+          "mae": 1.13665194,
+          "es": 1.45715921
+        },
+        "pre2022": {
+          "viol_rate_pct": 3.4908,
+          "kupiec_lr": 5.19865,
+          "kupiec_p": 0.022604,
+          "christ_p": 0.479218,
+          "mae": 1.2232363,
+          "es": 1.70046912
+        },
+        "post2022": {
+          "viol_rate_pct": 3.6489,
+          "kupiec_lr": 4.283332,
+          "kupiec_p": 0.038488,
+          "christ_p": 0.199597,
+          "mae": 1.05348314,
+          "es": 1.23357712
+        }
+      },
+      "VaRgGARCH_S": {
+        "global": {
+          "viol_rate_pct": 1.8109,
+          "kupiec_lr": 55.779315,
+          "kupiec_p": 0.0,
+          "christ_p": 0.003601,
+          "mae": 1.3576721,
+          "es": 1.67848692
+        },
+        "pre2022": {
+          "viol_rate_pct": 1.9507,
+          "kupiec_lr": 24.576141,
+          "kupiec_p": 1e-06,
+          "christ_p": 0.05196,
+          "mae": 1.4719352,
+          "es": 1.90137745
+        },
+        "post2022": {
+          "viol_rate_pct": 1.6765,
+          "kupiec_lr": 31.413218,
+          "kupiec_p": 0.0,
+          "christ_p": 0.029681,
+          "mae": 1.24791641,
+          "es": 1.42937397
+        }
+      },
+      "VaRaGARCH_N": {
+        "global": {
+          "viol_rate_pct": 3.7223,
+          "kupiec_lr": 7.467207,
+          "kupiec_p": 0.006283,
+          "christ_p": 0.463789,
+          "mae": 1.12965438,
+          "es": 1.43903665
+        },
+        "pre2022": {
+          "viol_rate_pct": 3.3881,
+          "kupiec_lr": 5.979578,
+          "kupiec_p": 0.014472,
+          "christ_p": 0.434608,
+          "mae": 1.21452169,
+          "es": 1.71257659
+        },
+        "post2022": {
+          "viol_rate_pct": 4.0434,
+          "kupiec_lr": 2.084333,
+          "kupiec_p": 0.148817,
+          "christ_p": 0.789034,
+          "mae": 1.04813488,
+          "es": 1.21887036
+        }
+      },
+      "VaRaGARCH_S": {
+        "global": {
+          "viol_rate_pct": 1.8109,
+          "kupiec_lr": 55.779315,
+          "kupiec_p": 0.0,
+          "christ_p": 0.003601,
+          "mae": 1.3589031,
+          "es": 1.72663537
+        },
+        "pre2022": {
+          "viol_rate_pct": 2.0534,
+          "kupiec_lr": 22.683253,
+          "kupiec_p": 2e-06,
+          "christ_p": 0.064482,
+          "mae": 1.46801639,
+          "es": 1.94600166
+        },
+        "post2022": {
+          "viol_rate_pct": 1.5779,
+          "kupiec_lr": 33.72843,
+          "kupiec_p": 0.0,
+          "christ_p": 0.022769,
+          "mae": 1.25409408,
+          "es": 1.45242751
+        }
+      }
+    },
+    "0.01": {
+      "Q-BB_block1": {
+        "global": {
+          "viol_rate_pct": 0.6036,
+          "kupiec_lr": 3.676127,
+          "kupiec_p": 0.055197,
+          "christ_p": 0.702559,
+          "mae": 2.04124346,
+          "es": 2.35647802
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.616,
+          "kupiec_lr": 1.680708,
+          "kupiec_p": 0.19483,
+          "christ_p": 0.784954,
+          "mae": 2.37300121,
+          "es": 3.01383546
+        },
+        "post2022": {
+          "viol_rate_pct": 0.5917,
+          "kupiec_lr": 2.000308,
+          "kupiec_p": 0.157267,
+          "christ_p": 0.789165,
+          "mae": 1.72257279,
+          "es": 1.69912058
+        }
+      },
+      "VaRGARCH_N": {
+        "global": {
+          "viol_rate_pct": 1.006,
+          "kupiec_lr": 0.00073,
+          "kupiec_p": 0.978442,
+          "christ_p": 0.19571,
+          "mae": 1.56083699,
+          "es": 2.00355497
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.924,
+          "kupiec_lr": 0.05827,
+          "kupiec_p": 0.809251,
+          "christ_p": 0.681849,
+          "mae": 1.69128533,
+          "es": 2.49028455
+        },
+        "post2022": {
+          "viol_rate_pct": 1.0848,
+          "kupiec_lr": 0.071697,
+          "kupiec_p": 0.788882,
+          "christ_p": 0.104468,
+          "mae": 1.43553455,
+          "es": 1.60532168
+        }
+      },
+      "VaRGARCH_S": {
+        "global": {
+          "viol_rate_pct": 0.2012,
+          "kupiec_lr": 19.060428,
+          "kupiec_p": 1.3e-05,
+          "christ_p": 0.898915,
+          "mae": 2.22523458,
+          "es": 2.97449786
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.2053,
+          "kupiec_lr": 9.209587,
+          "kupiec_p": 0.002408,
+          "christ_p": 0.927676,
+          "mae": 2.41930117,
+          "es": 3.62265434
+        },
+        "post2022": {
+          "viol_rate_pct": 0.1972,
+          "kupiec_lr": 9.852464,
+          "kupiec_p": 0.001696,
+          "christ_p": 0.929118,
+          "mae": 2.03882348,
+          "es": 2.32634139
+        }
+      },
+      "VaReGARCH_N": {
+        "global": {
+          "viol_rate_pct": 1.006,
+          "kupiec_lr": 0.00073,
+          "kupiec_p": 0.978442,
+          "christ_p": 0.19571,
+          "mae": 1.55997136,
+          "es": 2.00723002
+        },
+        "pre2022": {
+          "viol_rate_pct": 1.0267,
+          "kupiec_lr": 0.00695,
+          "kupiec_p": 0.933562,
+          "christ_p": 0.648586,
+          "mae": 1.68764333,
+          "es": 2.37510804
+        },
+        "post2022": {
+          "viol_rate_pct": 0.9862,
+          "kupiec_lr": 0.001961,
+          "kupiec_p": 0.964675,
+          "christ_p": 0.083339,
+          "mae": 1.43733576,
+          "es": 1.639352
+        }
+      },
+      "VaReGARCH_S": {
+        "global": {
+          "viol_rate_pct": 0.2515,
+          "kupiec_lr": 16.069455,
+          "kupiec_p": 6.1e-05,
+          "christ_p": 0.873803,
+          "mae": 2.24968444,
+          "es": 2.72081132
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.308,
+          "kupiec_lr": 6.461229,
+          "kupiec_p": 0.011025,
+          "christ_p": 0.891645,
+          "mae": 2.44913328,
+          "es": 2.98379128
+        },
+        "post2022": {
+          "viol_rate_pct": 0.1972,
+          "kupiec_lr": 9.852464,
+          "kupiec_p": 0.001696,
+          "christ_p": 0.929118,
+          "mae": 2.0581034,
+          "es": 2.32634139
+        }
+      },
+      "VaRgGARCH_N": {
+        "global": {
+          "viol_rate_pct": 1.0563,
+          "kupiec_lr": 0.062583,
+          "kupiec_p": 0.802458,
+          "christ_p": 0.218548,
+          "mae": 1.56909737,
+          "es": 1.97565928
+        },
+        "pre2022": {
+          "viol_rate_pct": 1.1294,
+          "kupiec_lr": 0.158039,
+          "kupiec_p": 0.690969,
+          "christ_p": 0.615975,
+          "mae": 1.7010812,
+          "es": 2.30823718
+        },
+        "post2022": {
+          "viol_rate_pct": 0.9862,
+          "kupiec_lr": 0.001961,
+          "kupiec_p": 0.964675,
+          "christ_p": 0.083339,
+          "mae": 1.44232,
+          "es": 1.60982358
+        }
+      },
+      "VaRgGARCH_S": {
+        "global": {
+          "viol_rate_pct": 0.2012,
+          "kupiec_lr": 19.060428,
+          "kupiec_p": 1.3e-05,
+          "christ_p": 0.898915,
+          "mae": 2.21268352,
+          "es": 2.97449786
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.2053,
+          "kupiec_lr": 9.209587,
+          "kupiec_p": 0.002408,
+          "christ_p": 0.927676,
+          "mae": 2.41559687,
+          "es": 3.62265434
+        },
+        "post2022": {
+          "viol_rate_pct": 0.1972,
+          "kupiec_lr": 9.852464,
+          "kupiec_p": 0.001696,
+          "christ_p": 0.929118,
+          "mae": 2.01777463,
+          "es": 2.32634139
+        }
+      },
+      "VaRaGARCH_N": {
+        "global": {
+          "viol_rate_pct": 0.9557,
+          "kupiec_lr": 0.039935,
+          "kupiec_p": 0.841608,
+          "christ_p": 0.17414,
+          "mae": 1.55906132,
+          "es": 2.04242531
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.924,
+          "kupiec_lr": 0.05827,
+          "kupiec_p": 0.809251,
+          "christ_p": 0.681849,
+          "mae": 1.68894666,
+          "es": 2.49028455
+        },
+        "post2022": {
+          "viol_rate_pct": 0.9862,
+          "kupiec_lr": 0.001961,
+          "kupiec_p": 0.964675,
+          "christ_p": 0.083339,
+          "mae": 1.43429966,
+          "es": 1.639352
+        }
+      },
+      "VaRaGARCH_S": {
+        "global": {
+          "viol_rate_pct": 0.3018,
+          "kupiec_lr": 13.482201,
+          "kupiec_p": 0.000241,
+          "christ_p": 0.848804,
+          "mae": 2.22171145,
+          "es": 2.62081486
+        },
+        "pre2022": {
+          "viol_rate_pct": 0.4107,
+          "kupiec_lr": 4.394527,
+          "kupiec_p": 0.036054,
+          "christ_p": 0.855799,
+          "mae": 2.41240393,
+          "es": 2.7680516
+        },
+        "post2022": {
+          "viol_rate_pct": 0.1972,
+          "kupiec_lr": 9.852464,
+          "kupiec_p": 0.001696,
+          "christ_p": 0.929118,
+          "mae": 2.03854135,
+          "es": 2.32634139
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Descriptive Statistics and Stationarity Tests for Daily Stock Index Returns}
+\label{tab:desc_stats}
+\begin{tabular}{lcccc}
+\hline\hline
+Statistic & BRVM Composite & BRVM Finance & CAC 40 & S\&P 500 \\
+\hline
+Mean & 0.01 & 0.02 & 0.02 & 0.05 \\
+Std. Dev. & 0.70 & 0.97 & 1.15 & 1.10 \\
+Min & -4.84 & -6.48 & -13.10 & -12.77 \\
+Max & 3.48 & 6.43 & 8.06 & 9.09 \\
+Skewness & -0.07 & 0.03 & -0.83 & -0.66 \\
+Kurtosis & 4.20 & 3.15 & 10.91 & 16.29 \\
+\hline
+ADF $p$-value & $< 10^{-300}$$^{***}$ & $< 10^{-300}$$^{***}$ & $9.45 \times 10^{-20}$$^{***}$ & $3.34 \times 10^{-21}$$^{***}$ \\
+KPSS $p$-value & $1.00 \times 10^{-2}$$^{**}$ & $1.44 \times 10^{-2}$$^{**}$ & $1.00 \times 10^{-1}$ & $1.00 \times 10^{-1}$ \\
+Jarque-Bera $p$-value & $< 10^{-300}$$^{***}$ & $9.54 \times 10^{-263}$$^{***}$ & $< 10^{-300}$$^{***}$ & $< 10^{-300}$$^{***}$ \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize \textit{Notes:} $^{***}$, $^{**}$, and $^{*}$ denote significance at 1\%, 5\%, and 10\% levels. ADF: Augmented Dickey--Fuller test; $H_0$: unit root. KPSS: Kwiatkowski--Phillips--Schmidt--Shin test; $H_0$: stationarity. Jarque--Bera: $H_0$: normality.} \\
+\end{tabular}
+\end{table}

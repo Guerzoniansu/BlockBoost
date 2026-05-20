@@ -1,0 +1,50 @@
+{
+    "2": {
+        "final_test_clean_mean": 0.8720000000000001,
+        "final_test_clean_std": 0.016516359267610706,
+        "stability_mean": 0.0021688912335271165,
+        "stability_std": 0.0006019936991672342,
+        "empirical_eps_star_mean": 0.32333333333333336,
+        "empirical_eps_star_std": 0.0229106516534051
+    },
+    "6": {
+        "final_test_clean_mean": 0.8557777777777777,
+        "final_test_clean_std": 0.021641295687004184,
+        "stability_mean": 0.002012361310057809,
+        "stability_std": 0.0007108091828387621,
+        "empirical_eps_star_mean": 0.32333333333333336,
+        "empirical_eps_star_std": 0.022910651653405074
+    },
+    "12": {
+        "final_test_clean_mean": 0.8275555555555556,
+        "final_test_clean_std": 0.036483718675527875,
+        "stability_mean": 0.0017221186440510255,
+        "stability_std": 0.00024974631014939853,
+        "empirical_eps_star_mean": 0.32333333333333336,
+        "empirical_eps_star_std": 0.022910651653405084
+    },
+    "25": {
+        "final_test_clean_mean": 0.7975555555555556,
+        "final_test_clean_std": 0.03212168222767609,
+        "stability_mean": 0.001978131608759713,
+        "stability_std": 0.0007011196236226462,
+        "empirical_eps_star_mean": 0.32333333333333336,
+        "empirical_eps_star_std": 0.022910651653405084
+    },
+    "50": {
+        "final_test_clean_mean": 0.7571111111111111,
+        "final_test_clean_std": 0.026801510921108895,
+        "stability_mean": 0.002617281047750637,
+        "stability_std": 0.002646544269426561,
+        "empirical_eps_star_mean": 0.32333333333333336,
+        "empirical_eps_star_std": 0.022910651653405074
+    },
+    "100": {
+        "final_test_clean_mean": 0.7275555555555556,
+        "final_test_clean_std": 0.04742974011012056,
+        "stability_mean": 0.0006208139599902106,
+        "stability_std": 0.000594960696264145,
+        "empirical_eps_star_mean": 0.3233333333333333,
+        "empirical_eps_star_std": 0.02291065165340508
+    }
+}
